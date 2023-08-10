@@ -1,0 +1,22 @@
+Ah, I understand your requirement better now. Let's craft a prompt considering that the input will be the News Feed Article context and the user query, and the objective is to extract and summarize drug-related details:
+
+---
+
+"Given the following article from the Navlin News Feed and the user's query, extract and provide a concise summary focusing specifically on BMS-related drug details.
+
+**Article**: '[news_article_content]'
+
+**User Query**: '[user_query]'
+
+**Examples**:
+
+1. **Article**:
+   "Bristol-Myers Squibb recently announced the approval of its new cancer drug 'XYZ'. This drug has been celebrated for its significant reduction in tumor size during clinical trials. In other news, the economic growth..."
+   **User Query**: "BMS's new cancer drug details"
+   **Output**: "Bristol-Myers Squibb's new cancer drug 'XYZ' has received approval and demonstrated a significant reduction in tumor size during clinical trials."
+
+2. **Article**:
+   "The cardiovascular sector has seen a new entrant from BMS named 'ABC'. Some users have reported side effects such as dizziness and shortness of breath. However, in international markets..."
+   **User Query**: "Side effects of BMS's cardiovascular drugs"
+   **Output**: "BMS's cardiovascular drug 'ABC' has potential side effects including dizziness and shortness of breath."
+
